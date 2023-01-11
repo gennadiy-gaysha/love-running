@@ -124,7 +124,6 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-about {
@@ -139,9 +138,24 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-content {
+.about-content {
     width: 60%;
-    float: right;
     line-height: 20px;
     margin-bottom: 50px;
+}    
+
+.left-about-content{
+    float: right;
 }
+
+.right-about-content{
+    float: left;
+}
+
+.right-about-content h2{
+    text-align: right;
+}
+.right-about-content p{
+    text-align: right;
+}
+
