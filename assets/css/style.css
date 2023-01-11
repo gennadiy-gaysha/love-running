@@ -36,6 +36,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    margin-left: 30px;
 }
 
 #menu li {
@@ -83,7 +84,7 @@ h2 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
+
 }
 
 /* creates the level of zoom for hero image */
@@ -110,4 +111,37 @@ h2 {
     bottom: 40px;
     right: 150px;
     position: absolute;
+}
+
+/* club-ethos */
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    margin: 0 auto;
+    background-color: green;
+    width: 33%;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 50px;
 }
