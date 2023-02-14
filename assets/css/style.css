@@ -380,3 +380,49 @@ footer {
         column-count: 2;
     }
 }
+
+
+
+/* ------------------------------------------------------------------ */
+
+/* Main image section */
+.right-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#ethos-background {
+    background-image: url(../img/firm_ethos.png);
+    background-position: right 125px;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.text-button {
+    position: absolute;
+    top: 250px;
+    margin: 0 auto;
+}
+
+#ethos-background h3 {
+    font-size: 250%;
+    line-height: 50px;
+}
+
+/* button */
+#ethos-background a {
+    display: block;
+    width: 242px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #8B7F80;
+    border-radius: 4px;
+    margin: 25px auto;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: #F1F1F199;
+    line-height: 56px;
+}
